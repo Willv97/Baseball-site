@@ -1,3 +1,4 @@
+/*Body Section*/
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -5,12 +6,14 @@ body {
     color: #1a2b4c;
 }
 
+/*Header Section*/
 header {
     background-color: #1a2b4c;
     color: white;
     padding: 1 rem 2rem;
 }
 
+/*Nav Section*/
 nav {
     display: flex;
     justify-content: space-between;
@@ -28,3 +31,82 @@ nav a {
     text-decoration: none;
     font-weight: bold;
 }
+
+/*Hero Section*/
+.hero {
+    background: url('images/retro-baseball-bg.jpg');
+    color: white;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.cta-btn {
+    display: inline-block;
+    background: #b22222;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+}
+/*Features Section*/
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: white;
+}
+
+.feature h3 {
+    font-family: 'Bebas Neue', cursive;
+    color: #b22222;
+}
+
+/*Footer*/
+footer {
+    background: #1a2b4c;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+/*Other Pages*/
+.page-content {
+    padding: 2rem;
+    background: #faf3e0;
+  }
+  
+  .page-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  /*Traing Section*/
+  .training-section {
+    margin-bottom: 2rem;
+    background: white;
+    padding: 1.5rem;
+    border-left: 5px solid #b22222;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  
+  .training-section h3 {
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 0;
+  }
+
+  /*Reponsiveness*/
+  @media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+  }
