@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Videos – Coming Soon</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>⚾ Baseball Pro Tips</h1>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="training.html">Training</a></li>
+        <li><a href="hitting.html">Hitting</a></li>
+        <li><a href="injury-prevention.html">Injury Prevention</a></li>
+        <li><a href="videos.html">Videos</a></li>
+        <li><a href="about.html">About Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="coming-soon">
+    <h2>🎬 Videos Coming Soon</h2>
+    <p>We're working hard to bring you exclusive content on hitting mechanics, training drills, and injury prevention.</p>
+    <p class="soon-note">Stay tuned, it's going to be worth it.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Bob Olah's True Baseball Hitting. All rights reserved</p>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
